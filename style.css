@@ -1,7 +1,18 @@
 :root {
     --jumbotron-padding-y: 3rem;
   }
-  
+
+  header, .full-width {
+    width: 100%;
+    background: #ccc;
+  }
+  .wrap {
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    text-align: center;
+  }
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
